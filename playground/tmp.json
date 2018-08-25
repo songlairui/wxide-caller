@@ -1,0 +1,1145 @@
+{
+  "projectid": "wx898945e5568b4ea3_wx-webview",
+  "condiction": {
+    "weapp": { "current": -1, "list": [] },
+    "search": { "current": -1, "list": [] },
+    "conversation": { "current": -1, "list": [] },
+    "plugin": { "current": -1, "list": [] },
+    "game": { "list": [] }
+  },
+  "setting": {
+    "urlCheck": false,
+    "es6": true,
+    "postcss": true,
+    "minified": true,
+    "newFeature": true
+  },
+  "compileType": "weapp",
+  "libVersion": "2.2.2",
+  "createTime": 1535093457053,
+  "accessTime": 1535097652288,
+  "packOptions": { "ignore": [] },
+  "isAdmin": 1,
+  "isTourist": false,
+  "isGameTourist": false,
+  "hash": 311528874,
+  "appid": "wx898945e5568b4ea3",
+  "projectname": "wx-webview",
+  "projectpath": "F:\\Coding\\wx-webview",
+  "appShowImageUrl": "http://wx.qlogo.cn/mmhead/ZqDaDiccbgkheF9QZWougtkaK1L04uekiaA0x4EzicOibHatuawANNR1ibA/0",
+  "attr": {
+    "network": {
+      "RequestDomain": ["https://e.9.cn", "https://img.xmyunyou.com"],
+      "WsRequestDomain": ["wss://e.9.cn"],
+      "UploadDomain": ["https://e.9.cn"],
+      "DownloadDomain": ["https://e.9.cn"],
+      "BizDomain": []
+    },
+    "setting": {
+      "MaxLocalstorageSize": 10,
+      "MaxCodeSize": 2,
+      "MaxWebviewDepth": 5,
+      "ExpendedMaxWebviewDepth": 10,
+      "MaxBackgroundLifespan": 300,
+      "MaxRequestConcurrent": 10,
+      "MaxUploadConcurrent": 10,
+      "MaxDownloadConcurrent": 10,
+      "MaxFileStorageSize": 10,
+      "MinTabbarCount": 2,
+      "MaxTabbarCount": 5,
+      "MaxTabbarIconSize": 40,
+      "MaxDataSize": 1048576,
+      "MaxWebsocketConnect": 2,
+      "GameDownloadFileSizeLimit": 50,
+      "DownloadFileSizeLimit": 10,
+      "SubContextImgDomain": [
+        "https://wx.qlogo.cn/",
+        "https://thirdwx.qlogo.cn/"
+      ],
+      "ExpiresAtList": 432000,
+      "BackgroundNetworkInterruptedTimeout": 300,
+      "CanKeepAliveByAudioPlay": 1,
+      "LifeSpanBeforeSuspend": 5,
+      "LifeSpanAfterSuspend": 300,
+      "ActualWebviewDepth": 5,
+      "WebsocketSkipPortCheck": 0,
+      "MaxSubpackageSubCodeSize": 2,
+      "MaxSubpackageFullCodeSize": 8,
+      "MaxWorkerConcurrent": 1,
+      "ScanCodeEnableZZM": 0,
+      "MaxPluginSdkReadmeSize": 2,
+      "CanPreFetchData": 0,
+      "CanPeriodFetchData": 0,
+      "PeriodFetchData": 12,
+      "AppserviceMaxDataSize": 1048576,
+      "HTTPSetting": {
+        "HTTPHeaderMode": "BlackList",
+        "HeaderBlackList": ["User-Agent"],
+        "HeaderWhiteList": [],
+        "UploadMaxTimeoutMS": 60000,
+        "DownloadMaxTimeoutMS": 60000,
+        "WebsocketMaxTimeoutMS": 60000,
+        "RequestMaxTimeoutMS": 60000,
+        "HTTPHeaderReferer": "servicewechat.com"
+      },
+      "CDNBaseURL": "https://res.servicewechat.com/weapp",
+      "AppMaxRunningCount": 5,
+      "TempFileSizeLimitTotal": 300,
+      "MaxLocalStorageItemSize": 1048576,
+      "SyncLaunchSceneList": [1037, 1055],
+      "AttrSyncForceUpdateTime": 7,
+      "StarNumberLimitation": 10,
+      "DeadThreadMaxTimeToLive": 30,
+      "DeadThreadBanDuration": 1800,
+      "WidgetImageFlowLimitDuration": 1800,
+      "WidgetImageFlowLimitMaxSize": 307200,
+      "WidgetDrawMinInterval": 4500,
+      "NativeBufferSizeLimitByte": 10485760,
+      "NativeBufferQueueLimitByte": 314572800,
+      "GameMaxRunningCount": 1,
+      "GamePerfCollectSamplePercentage": 0.001,
+      "SyncVersionSetting": {
+        "PullVersionInterval": 21600,
+        "PullVersionWxaUsageLastInterval": 2592000,
+        "PullVersionMaxCount": 1000,
+        "PullVersionMaxCountPerRequest": 100
+      },
+      "PackageManager": {
+        "CheckInterval": 86400,
+        "WithoutContactClearSeconds": 864000,
+        "ClientStoragePercent": 5,
+        "ClientStorageMinMB": 256
+      },
+      "GamePerfCollectInterval": 60
+    },
+    "platform": false,
+    "gameApp": false,
+    "platformNickname": "",
+    "appNickName": "lary",
+    "permission": {
+      "openLink": { "name": "openLink", "state": 0 },
+      "showKeyboard": { "name": "showKeyboard", "state": 1 },
+      "insertMap": { "name": "insertMap", "state": 1 },
+      "removeMap": { "name": "removeMap", "state": 1 },
+      "updateMapCovers": { "name": "updateMapCovers", "state": 1 },
+      "getLocalImgData": { "name": "getLocalImgData", "state": 1 },
+      "insertVideoPlayer": { "name": "insertVideoPlayer", "state": 1 },
+      "removeVideoPlayer": { "name": "removeVideoPlayer", "state": 1 },
+      "setNavigationBarTitle": { "name": "setNavigationBarTitle", "state": 1 },
+      "showNavigationBarLoading": {
+        "name": "showNavigationBarLoading",
+        "state": 1
+      },
+      "hideNavigationBarLoading": {
+        "name": "hideNavigationBarLoading",
+        "state": 1
+      },
+      "onPullDownRefresh": { "name": "onPullDownRefresh", "state": 1 },
+      "stopPullDownRefresh": { "name": "stopPullDownRefresh", "state": 1 },
+      "redirectTo": { "name": "redirectTo", "state": 1 },
+      "navigateTo": { "name": "navigateTo", "state": 1 },
+      "navigateBack": { "name": "navigateBack", "state": 1 },
+      "setStorage": { "name": "setStorage", "state": 1 },
+      "getStorage": { "name": "getStorage", "state": 1 },
+      "clearStorage": { "name": "clearStorage", "state": 1 },
+      "request": { "name": "request", "state": 1 },
+      "connectSocket": { "name": "connectSocket", "state": 1 },
+      "closeSocket": { "name": "closeSocket", "state": 1 },
+      "sendSocketMessage": { "name": "sendSocketMessage", "state": 1 },
+      "onSocketOpen": { "name": "onSocketOpen", "state": 1 },
+      "onSocketClose": { "name": "onSocketClose", "state": 1 },
+      "onSocketMessage": { "name": "onSocketMessage", "state": 1 },
+      "onSocketError": { "name": "onSocketError", "state": 1 },
+      "uploadFile": { "name": "uploadFile", "state": 1 },
+      "downloadFile": { "name": "downloadFile", "state": 1 },
+      "chooseImage": { "name": "chooseImage", "state": 1 },
+      "previewImage": { "name": "previewImage", "state": 1 },
+      "startRecord": {
+        "name": "startRecord",
+        "state": 4,
+        "userauth_wording": "\"lary\" 要使用你的录音功能，是否允许？"
+      },
+      "stopRecord": { "name": "stopRecord", "state": 1 },
+      "playVoice": { "name": "playVoice", "state": 1 },
+      "pauseVoice": { "name": "pauseVoice", "state": 1 },
+      "stopVoice": { "name": "stopVoice", "state": 1 },
+      "chooseVideo": { "name": "chooseVideo", "state": 1 },
+      "getLocation": {
+        "name": "getLocation",
+        "state": 4,
+        "userauth_wording": "\"lary\" 要获取你的地理位置，是否允许？"
+      },
+      "openLocation": { "name": "openLocation", "state": 1 },
+      "getNetworkType": { "name": "getNetworkType", "state": 1 },
+      "getSystemInfo": { "name": "getSystemInfo", "state": 1 },
+      "accelerometer": { "name": "accelerometer", "state": 1 },
+      "orientation": { "name": "orientation", "state": 1 },
+      "vibrate": { "name": "vibrate", "state": 1 },
+      "pasteboard": { "name": "pasteboard", "state": 1 },
+      "reportAction": { "name": "reportAction", "state": 1 },
+      "getMusicPlayerState": { "name": "getMusicPlayerState", "state": 1 },
+      "operateMusicPlayer": { "name": "operateMusicPlayer", "state": 1 },
+      "onAppRoute": { "name": "onAppRoute", "state": 1 },
+      "onAppEnterBackground": { "name": "onAppEnterBackground", "state": 1 },
+      "onAppEnterForeground": { "name": "onAppEnterForeground", "state": 1 },
+      "saveFile": { "name": "saveFile", "state": 1 },
+      "login": { "name": "login", "state": 1 },
+      "checkLogin": { "name": "checkLogin", "state": 1 },
+      "authorize": { "name": "authorize", "state": 1 },
+      "getUserInfo": { "name": "getUserInfo", "state": 1 },
+      "getFriends": { "name": "getFriends", "state": 0 },
+      "requestPayment": { "name": "requestPayment", "state": 0 },
+      "addCard": { "name": "addCard", "state": 0 },
+      "openCard": { "name": "openCard", "state": 0 },
+      "chooseCard": { "name": "chooseCard", "state": 0 },
+      "DISCARDJSAPI_scanCode": { "name": "DISCARDJSAPI_scanCode", "state": 0 },
+      "openAddress": {
+        "name": "openAddress",
+        "state": 4,
+        "userauth_wording": "\"lary\" 要访问你的收货地址，是否允许？"
+      },
+      "reportKeyValue": { "name": "reportKeyValue", "state": 1 },
+      "reportIDKey": { "name": "reportIDKey", "state": 1 },
+      "systemLog": { "name": "systemLog", "state": 1 },
+      "reportSubmitForm": { "name": "reportSubmitForm", "state": 1 },
+      "insertCanvas": { "name": "insertCanvas", "state": 1 },
+      "removeCanvas": { "name": "removeCanvas", "state": 1 },
+      "drawCanvas": { "name": "drawCanvas", "state": 1 },
+      "hideKeyboard": { "name": "hideKeyboard", "state": 1 },
+      "getCurrentRoute": { "name": "getCurrentRoute", "state": 1 },
+      "chooseContact": { "name": "chooseContact", "state": 0 },
+      "shareAppMessage": { "name": "shareAppMessage", "state": 1 },
+      "shareTimeline": { "name": "shareTimeline", "state": 1 },
+      "onMenuShareAppMessage": { "name": "onMenuShareAppMessage", "state": 1 },
+      "onMenuShareTimeline": { "name": "onMenuShareTimeline", "state": 1 },
+      "setKeyboardValue": { "name": "setKeyboardValue", "state": 1 },
+      "onKeyboardValueChange": { "name": "onKeyboardValueChange", "state": 1 },
+      "operateWXData": { "name": "operateWXData", "state": 1 },
+      "onMusicPlay": { "name": "onMusicPlay", "state": 1 },
+      "onMusicPause": { "name": "onMusicPause", "state": 1 },
+      "onMusicEnd": { "name": "onMusicEnd", "state": 1 },
+      "updateCanvas": { "name": "updateCanvas", "state": 1 },
+      "showDatePickerView": { "name": "showDatePickerView", "state": 1 },
+      "verifyPaymentPassword": { "name": "verifyPaymentPassword", "state": 0 },
+      "bindPaymentCard": { "name": "bindPaymentCard", "state": 0 },
+      "updateVideoPlayer": { "name": "updateVideoPlayer", "state": 1 },
+      "onCanvasTouchStart": { "name": "onCanvasTouchStart", "state": 1 },
+      "onCanvasTouchMove": { "name": "onCanvasTouchMove", "state": 1 },
+      "onCanvasTouchEnd": { "name": "onCanvasTouchEnd", "state": 1 },
+      "setPageDraggable": { "name": "setPageDraggable", "state": 1 },
+      "enableAccelerometer": { "name": "enableAccelerometer", "state": 1 },
+      "onAccelerometerChange": { "name": "onAccelerometerChange", "state": 1 },
+      "enableCompass": { "name": "enableCompass", "state": 1 },
+      "onCompassChange": { "name": "onCompassChange", "state": 1 },
+      "showPickerView": { "name": "showPickerView", "state": 1 },
+      "getPublicLibVersion": { "name": "getPublicLibVersion", "state": 1 },
+      "removeStorage": { "name": "removeStorage", "state": 1 },
+      "openDocument": { "name": "openDocument", "state": 1 },
+      "toTempFilePath": { "name": "toTempFilePath", "state": 1 },
+      "getAppConfig": { "name": "getAppConfig", "state": 1 },
+      "makePhoneCall": { "name": "makePhoneCall", "state": 1 },
+      "chooseLocation": {
+        "name": "chooseLocation",
+        "state": 4,
+        "userauth_wording": "\"lary\" 要获取你的地理位置，是否允许？"
+      },
+      "showModal": { "name": "showModal", "state": 1 },
+      "showToast": { "name": "showToast", "state": 1 },
+      "hideToast": { "name": "hideToast", "state": 1 },
+      "showActionSheet": { "name": "showActionSheet", "state": 1 },
+      "reportRealtimeAction": { "name": "reportRealtimeAction", "state": 1 },
+      "onAppConfig": { "name": "onAppConfig", "state": 1 },
+      "insertTextArea": { "name": "insertTextArea", "state": 1 },
+      "updateTextArea": { "name": "updateTextArea", "state": 1 },
+      "updateInput": { "name": "updateInput", "state": 1 },
+      "getStorageInfo": { "name": "getStorageInfo", "state": 1 },
+      "operateVideoPlayer": { "name": "operateVideoPlayer", "state": 1 },
+      "getSavedFileList": { "name": "getSavedFileList", "state": 1 },
+      "getSavedFileInfo": { "name": "getSavedFileInfo", "state": 1 },
+      "removeSavedFile": { "name": "removeSavedFile", "state": 1 },
+      "refreshSession": { "name": "refreshSession", "state": 1 },
+      "removeTextArea": { "name": "removeTextArea", "state": 1 },
+      "getImageInfo": { "name": "getImageInfo", "state": 1 },
+      "insertShareButton": { "name": "insertShareButton", "state": 1 },
+      "updateShareButton": { "name": "updateShareButton", "state": 1 },
+      "removeShareButton": { "name": "removeShareButton", "state": 1 },
+      "insertContactButton": { "name": "insertContactButton", "state": 1 },
+      "updateContactButton": { "name": "updateContactButton", "state": 1 },
+      "removeContactButton": { "name": "removeContactButton", "state": 1 },
+      "onVideoPlay": { "name": "onVideoPlay", "state": 1 },
+      "onVideoPause": { "name": "onVideoPause", "state": 1 },
+      "onVideoEnd": { "name": "onVideoEnd", "state": 1 },
+      "onVideoClickFullScreenBtn": {
+        "name": "onVideoClickFullScreenBtn",
+        "state": 1
+      },
+      "onVideoClickDanmuBtn": { "name": "onVideoClickDanmuBtn", "state": 1 },
+      "playAudio": { "name": "playAudio", "state": 1 },
+      "addMapMarkers": { "name": "addMapMarkers", "state": 1 },
+      "addMapLines": { "name": "addMapLines", "state": 1 },
+      "addMapCircles": { "name": "addMapCircles", "state": 1 },
+      "includeMapPoints": { "name": "includeMapPoints", "state": 1 },
+      "onLongPress": { "name": "onLongPress", "state": 1 },
+      "onVideoTimeUpdate": { "name": "onVideoTimeUpdate", "state": 1 },
+      "disableScrollBounce": { "name": "disableScrollBounce", "state": 1 },
+      "addMapControls": { "name": "addMapControls", "state": 1 },
+      "moveToMapLocation": { "name": "moveToMapLocation", "state": 1 },
+      "onMapMarkerClick": { "name": "onMapMarkerClick", "state": 1 },
+      "onMapControlClick": { "name": "onMapControlClick", "state": 1 },
+      "getMapCenterLocation": { "name": "getMapCenterLocation", "state": 1 },
+      "enterContact": { "name": "enterContact", "state": 1 },
+      "showShareMenu": { "name": "showShareMenu", "state": 1 },
+      "onMapRegionChange": { "name": "onMapRegionChange", "state": 1 },
+      "scanCode": { "name": "scanCode", "state": 1 },
+      "requestPaymentToBank": { "name": "requestPaymentToBank", "state": 0 },
+      "switchTab": { "name": "switchTab", "state": 1 },
+      "onMapClick": { "name": "onMapClick", "state": 1 },
+      "getContactMessageCount": {
+        "name": "getContactMessageCount",
+        "state": 1
+      },
+      "onNetworkStatusChange": { "name": "onNetworkStatusChange", "state": 1 },
+      "makeVoIPCall": { "name": "makeVoIPCall", "state": 0 },
+      "listenTapStatusBar": { "name": "listenTapStatusBar", "state": 1 },
+      "onTapStatusBar": { "name": "onTapStatusBar", "state": 1 },
+      "onClickNextMusicBtn": { "name": "onClickNextMusicBtn", "state": 1 },
+      "onClickPrevMusicBtn": { "name": "onClickPrevMusicBtn", "state": 1 },
+      "getBackgroundAudioState": {
+        "name": "getBackgroundAudioState",
+        "state": 1
+      },
+      "setBackgroundAudioState": {
+        "name": "setBackgroundAudioState",
+        "state": 1
+      },
+      "operateBackgroundAudio": {
+        "name": "operateBackgroundAudio",
+        "state": 1
+      },
+      "onBackgroundAudioStateChange": {
+        "name": "onBackgroundAudioStateChange",
+        "state": 1
+      },
+      "insertContainer": { "name": "insertContainer", "state": 0 },
+      "updateContainer": { "name": "updateContainer", "state": 0 },
+      "removeContainer": { "name": "removeContainer", "state": 0 },
+      "launchMiniProgram": { "name": "launchMiniProgram", "state": 0 },
+      "exit": { "name": "exit", "state": 1 },
+      "setClipboardData": { "name": "setClipboardData", "state": 1 },
+      "getClipboardData": { "name": "getClipboardData", "state": 1 },
+      "reLaunch": { "name": "reLaunch", "state": 1 },
+      "launchMiniProgramSP": { "name": "launchMiniProgramSP", "state": 0 },
+      "launchPluginMiniProgram": {
+        "name": "launchPluginMiniProgram",
+        "state": 0
+      },
+      "openBluetoothAdapter": { "name": "openBluetoothAdapter", "state": 1 },
+      "closeBluetoothAdapter": { "name": "closeBluetoothAdapter", "state": 1 },
+      "getBluetoothAdapterState": {
+        "name": "getBluetoothAdapterState",
+        "state": 1
+      },
+      "startBluetoothDevicesDiscovery": {
+        "name": "startBluetoothDevicesDiscovery",
+        "state": 1
+      },
+      "stopBluetoothDevicesDiscovery": {
+        "name": "stopBluetoothDevicesDiscovery",
+        "state": 1
+      },
+      "getBluetoothDevices": { "name": "getBluetoothDevices", "state": 1 },
+      "getConnectedBluetoothDevices": {
+        "name": "getConnectedBluetoothDevices",
+        "state": 1
+      },
+      "createBLEConnection": { "name": "createBLEConnection", "state": 1 },
+      "closeBLEConnection": { "name": "closeBLEConnection", "state": 1 },
+      "getBLEDeviceServices": { "name": "getBLEDeviceServices", "state": 1 },
+      "getBLEDeviceCharacteristics": {
+        "name": "getBLEDeviceCharacteristics",
+        "state": 1
+      },
+      "writeBLECharacteristicValue": {
+        "name": "writeBLECharacteristicValue",
+        "state": 1
+      },
+      "readBLECharacteristicValue": {
+        "name": "readBLECharacteristicValue",
+        "state": 1
+      },
+      "notifyBLECharacteristicValueChanged": {
+        "name": "notifyBLECharacteristicValueChanged",
+        "state": 1
+      },
+      "onBLECharacteristicValueChange": {
+        "name": "onBLECharacteristicValueChange",
+        "state": 1
+      },
+      "onBLEConnectionStateChanged": {
+        "name": "onBLEConnectionStateChanged",
+        "state": 1
+      },
+      "onBluetoothAdapterStateChange": {
+        "name": "onBluetoothAdapterStateChange",
+        "state": 1
+      },
+      "onBluetoothDeviceFound": {
+        "name": "onBluetoothDeviceFound",
+        "state": 1
+      },
+      "exitMiniProgram": { "name": "exitMiniProgram", "state": 1 },
+      "openSetting": { "name": "openSetting", "state": 1 },
+      "chooseMedia": { "name": "chooseMedia", "state": 0 },
+      "uploadEncryptedMediaFile": {
+        "name": "uploadEncryptedMediaFile",
+        "state": 0
+      },
+      "chooseWeChatContact": { "name": "chooseWeChatContact", "state": 0 },
+      "onUploadEncryptedMediaFileProgress": {
+        "name": "onUploadEncryptedMediaFileProgress",
+        "state": 0
+      },
+      "setStatusBarStyle": { "name": "setStatusBarStyle", "state": 1 },
+      "setNavigationBarColor": { "name": "setNavigationBarColor", "state": 1 },
+      "onMapCalloutClick": { "name": "onMapCalloutClick", "state": 1 },
+      "translateMapMarker": { "name": "translateMapMarker", "state": 1 },
+      "openUrl": { "name": "openUrl", "state": 0 },
+      "showShareMenuWithShareTicket": {
+        "name": "showShareMenuWithShareTicket",
+        "state": 1
+      },
+      "hideShareMenu": { "name": "hideShareMenu", "state": 1 },
+      "getUserAutoFillData": { "name": "getUserAutoFillData", "state": 0 },
+      "setUserAutoFillData": { "name": "setUserAutoFillData", "state": 0 },
+      "deleteUserAutoFillData": {
+        "name": "deleteUserAutoFillData",
+        "state": 0
+      },
+      "onKeyboardDropdownOperate": {
+        "name": "onKeyboardDropdownOperate",
+        "state": 0
+      },
+      "requestAuthUserAutoFillData": {
+        "name": "requestAuthUserAutoFillData",
+        "state": 0
+      },
+      "getPhoneNumber": { "name": "getPhoneNumber", "state": 0 },
+      "updateShareMenuShareTicket": {
+        "name": "updateShareMenuShareTicket",
+        "state": 1
+      },
+      "updateShareMenuDynamic": {
+        "name": "updateShareMenuDynamic",
+        "state": 0
+      },
+      "startFacialReconitionVerify": {
+        "name": "startFacialReconitionVerify",
+        "state": 0
+      },
+      "startFacialReconitionVerifyAndUploadVideo": {
+        "name": "startFacialReconitionVerifyAndUploadVideo",
+        "state": 0
+      },
+      "checkIsSupportFacialReconition": {
+        "name": "checkIsSupportFacialReconition",
+        "state": 0
+      },
+      "updatePerfData": { "name": "updatePerfData", "state": 1 },
+      "saveVideoToPhotosAlbum": {
+        "name": "saveVideoToPhotosAlbum",
+        "state": 4,
+        "userauth_wording": "\"lary\" "
+      },
+      "saveImageToPhotosAlbum": {
+        "name": "saveImageToPhotosAlbum",
+        "state": 4,
+        "userauth_wording": "\"lary\" "
+      },
+      "sendBizRedPocket": { "name": "sendBizRedPocket", "state": 0 },
+      "sendGoldenRedPocket": { "name": "sendGoldenRedPocket", "state": 0 },
+      "openGoldenRedPocketDetail": {
+        "name": "openGoldenRedPocketDetail",
+        "state": 0
+      },
+      "startBeaconDiscovery": { "name": "startBeaconDiscovery", "state": 1 },
+      "stopBeaconDiscovery": { "name": "stopBeaconDiscovery", "state": 1 },
+      "getBeacons": { "name": "getBeacons", "state": 1 },
+      "onBeaconUpdated": { "name": "onBeaconUpdated", "state": 1 },
+      "onBeaconServiceChanged": {
+        "name": "onBeaconServiceChanged",
+        "state": 1
+      },
+      "addPhoneContact": { "name": "addPhoneContact", "state": 1 },
+      "openSpecificWebsite": { "name": "openSpecificWebsite", "state": 0 },
+      "openWeRunSetting": { "name": "openWeRunSetting", "state": 1 },
+      "setScreenBrightness": { "name": "setScreenBrightness", "state": 1 },
+      "vibrateShort": { "name": "vibrateShort", "state": 1 },
+      "vibrateLong": { "name": "vibrateLong", "state": 1 },
+      "getScreenBrightness": { "name": "getScreenBrightness", "state": 1 },
+      "readFile": { "name": "readFile", "state": 1 },
+      "writeFile": { "name": "writeFile", "state": 1 },
+      "canvasToData": { "name": "canvasToData", "state": 0 },
+      "getSetting": { "name": "getSetting", "state": 1 },
+      "config_navigationBarRightButton": {
+        "name": "config_navigationBarRightButton",
+        "state": 0
+      },
+      "setNavigationBarRightButton": {
+        "name": "setNavigationBarRightButton",
+        "state": 0
+      },
+      "onTapNavigationBarRightButton": {
+        "name": "onTapNavigationBarRightButton",
+        "state": 0
+      },
+      "shareAppMessageDirectly": {
+        "name": "shareAppMessageDirectly",
+        "state": 1
+      },
+      "setTopBarText": { "name": "setTopBarText", "state": 1 },
+      "createRequestTask": { "name": "createRequestTask", "state": 1 },
+      "operateRequestTask": { "name": "operateRequestTask", "state": 1 },
+      "onRequestTaskStateChange": {
+        "name": "onRequestTaskStateChange",
+        "state": 1
+      },
+      "reportPageData": { "name": "reportPageData", "state": 1 },
+      "onStartReportPageData": { "name": "onStartReportPageData", "state": 1 },
+      "openDeliveryList": { "name": "openDeliveryList", "state": 0 },
+      "onUserCaptureScreen": { "name": "onUserCaptureScreen", "state": 1 },
+      "toggleEnableDebug": { "name": "toggleEnableDebug", "state": 1 },
+      "captureScreen": { "name": "captureScreen", "state": 0 },
+      "navigateToMiniProgram": { "name": "navigateToMiniProgram", "state": 1 },
+      "navigateBackMiniProgram": {
+        "name": "navigateBackMiniProgram",
+        "state": 1
+      },
+      "insertBaseView": { "name": "insertBaseView", "state": 1 },
+      "updateBaseView": { "name": "updateBaseView", "state": 1 },
+      "removeBaseView": { "name": "removeBaseView", "state": 1 },
+      "onBaseViewClick": { "name": "onBaseViewClick", "state": 1 },
+      "showMultiPickerView": { "name": "showMultiPickerView", "state": 1 },
+      "updateMultiPickerView": { "name": "updateMultiPickerView", "state": 1 },
+      "onMultiPickerViewChange": {
+        "name": "onMultiPickerViewChange",
+        "state": 1
+      },
+      "toggleKeepScreenOn": { "name": "toggleKeepScreenOn", "state": 1 },
+      "triggerGettingWidgetData": {
+        "name": "triggerGettingWidgetData",
+        "state": 0
+      },
+      "WIDGET_SEARCH_onCanvasInsert": {
+        "name": "WIDGET_SEARCH_onCanvasInsert",
+        "state": 0
+      },
+      "WIDGET_SEARCH_onDataPush": {
+        "name": "WIDGET_SEARCH_onDataPush",
+        "state": 0
+      },
+      "WIDGET_SEARCH_onError": { "name": "WIDGET_SEARCH_onError", "state": 0 },
+      "WIDGET_SEARCH_drawCanvas": {
+        "name": "WIDGET_SEARCH_drawCanvas",
+        "state": 0
+      },
+      "WIDGET_SEARCH_getSystemInfo": {
+        "name": "WIDGET_SEARCH_getSystemInfo",
+        "state": 0
+      },
+      "WIDGET_SEARCH_getNetworkType": {
+        "name": "WIDGET_SEARCH_getNetworkType",
+        "state": 0
+      },
+      "WIDGET_SEARCH_onNetworkStatusChange": {
+        "name": "WIDGET_SEARCH_onNetworkStatusChange",
+        "state": 0
+      },
+      "createDownloadTask": { "name": "createDownloadTask", "state": 1 },
+      "operateDownloadTask": { "name": "operateDownloadTask", "state": 1 },
+      "onDownloadTaskStateChange": {
+        "name": "onDownloadTaskStateChange",
+        "state": 1
+      },
+      "createUploadTask": { "name": "createUploadTask", "state": 1 },
+      "operateUploadTask": { "name": "operateUploadTask", "state": 1 },
+      "onUploadTaskStateChange": {
+        "name": "onUploadTaskStateChange",
+        "state": 1
+      },
+      "getMapScale": { "name": "getMapScale", "state": 1 },
+      "checkIsSupportSoterAuthentication": {
+        "name": "checkIsSupportSoterAuthentication",
+        "state": 1
+      },
+      "startSoterAuthentication": {
+        "name": "startSoterAuthentication",
+        "state": 1
+      },
+      "getFileInfo": { "name": "getFileInfo", "state": 1 },
+      "getMapRegion": { "name": "getMapRegion", "state": 1 },
+      "getRegionData": { "name": "getRegionData", "state": 1 },
+      "WIDGET_SEARCH_reportKeyValue": {
+        "name": "WIDGET_SEARCH_reportKeyValue",
+        "state": 0
+      },
+      "WIDGET_SEARCH_reportIDKey": {
+        "name": "WIDGET_SEARCH_reportIDKey",
+        "state": 0
+      },
+      "traceEvent": { "name": "traceEvent", "state": 1 },
+      "startPullDownRefresh": { "name": "startPullDownRefresh", "state": 1 },
+      "requestVirtualPayment": { "name": "requestVirtualPayment", "state": 0 },
+      "chooseInvoiceTitle": {
+        "name": "chooseInvoiceTitle",
+        "state": 4,
+        "userauth_wording": "\"lary\" 要获取你的发票抬头，是否允许？"
+      },
+      "WIDGET_SEARCH_log": { "name": "WIDGET_SEARCH_log", "state": 1 },
+      "navigateBackApplication": {
+        "name": "navigateBackApplication",
+        "state": 1
+      },
+      "WIDGET_SEARCH_setWidgetSize": {
+        "name": "WIDGET_SEARCH_setWidgetSize",
+        "state": 0
+      },
+      "destroyAudioInstance": { "name": "destroyAudioInstance", "state": 1 },
+      "createAudioInstance": { "name": "createAudioInstance", "state": 1 },
+      "setAudioState": { "name": "setAudioState", "state": 1 },
+      "getAudioState": { "name": "getAudioState", "state": 1 },
+      "onAudioStateChange": { "name": "onAudioStateChange", "state": 1 },
+      "operateRecorder": {
+        "name": "operateRecorder",
+        "state": 4,
+        "userauth_wording": "\"lary\" 要使用你的录音功能，是否允许？"
+      },
+      "onRecorderStateChange": { "name": "onRecorderStateChange", "state": 1 },
+      "operateAudio": { "name": "operateAudio", "state": 1 },
+      "insertHTMLWebView": { "name": "insertHTMLWebView", "state": 1 },
+      "removeHTMLWebView": { "name": "removeHTMLWebView", "state": 1 },
+      "updateHTMLWebView": { "name": "updateHTMLWebView", "state": 1 },
+      "onWebInvokeAppService": { "name": "onWebInvokeAppService", "state": 1 },
+      "WIDGET_CONVERSATION_onCanvasInsert": {
+        "name": "WIDGET_CONVERSATION_onCanvasInsert",
+        "state": 1
+      },
+      "WIDGET_CONVERSATION_onDataPush": {
+        "name": "WIDGET_CONVERSATION_onDataPush",
+        "state": 0
+      },
+      "WIDGET_CONVERSATION_onError": {
+        "name": "WIDGET_CONVERSATION_onError",
+        "state": 0
+      },
+      "WIDGET_CONVERSATION_drawCanvas": {
+        "name": "WIDGET_CONVERSATION_drawCanvas",
+        "state": 0
+      },
+      "WIDGET_CONVERSATION_getSystemInfo": {
+        "name": "WIDGET_CONVERSATION_getSystemInfo",
+        "state": 0
+      },
+      "WIDGET_CONVERSATION_getNetworkType": {
+        "name": "WIDGET_CONVERSATION_getNetworkType",
+        "state": 0
+      },
+      "WIDGET_CONVERSATION_onNetworkStatusChange": {
+        "name": "WIDGET_CONVERSATION_onNetworkStatusChange",
+        "state": 0
+      },
+      "WIDGET_CONVERSATION_reportKeyValue": {
+        "name": "WIDGET_CONVERSATION_reportKeyValue",
+        "state": 0
+      },
+      "WIDGET_CONVERSATION_reportIDKey": {
+        "name": "WIDGET_CONVERSATION_reportIDKey",
+        "state": 0
+      },
+      "WIDGET_CONVERSATION_log": {
+        "name": "WIDGET_CONVERSATION_log",
+        "state": 0
+      },
+      "WIDGET_CONVERSATION_setWidgetSize": {
+        "name": "WIDGET_CONVERSATION_setWidgetSize",
+        "state": 0
+      },
+      "verifyPlugin": { "name": "verifyPlugin", "state": 1 },
+      "startWifi": { "name": "startWifi", "state": 1 },
+      "stopWifi": { "name": "stopWifi", "state": 1 },
+      "connectWifi": { "name": "connectWifi", "state": 1 },
+      "getWifiList": { "name": "getWifiList", "state": 1 },
+      "getConnectedWifi": { "name": "getConnectedWifi", "state": 1 },
+      "presetWifiList": { "name": "presetWifiList", "state": 1 },
+      "setWifiList": { "name": "setWifiList", "state": 1 },
+      "onGetWifiList": { "name": "onGetWifiList", "state": 1 },
+      "onWifiConnected": { "name": "onWifiConnected", "state": 1 },
+      "uploadWeRunData": { "name": "uploadWeRunData", "state": 0 },
+      "addWeRunData": { "name": "addWeRunData", "state": 0 },
+      "WIDGET_SEARCH_onTap": { "name": "WIDGET_SEARCH_onTap", "state": 0 },
+      "WIDGET_SEARCH_openApp": { "name": "WIDGET_SEARCH_openApp", "state": 0 },
+      "WIDGET_SEARCH_onTapCallback": {
+        "name": "WIDGET_SEARCH_onTapCallback",
+        "state": 0
+      },
+      "WIDGET_SEARCH_makePhoneCall": {
+        "name": "WIDGET_SEARCH_makePhoneCall",
+        "state": 0
+      },
+      "insertCamera": {
+        "name": "insertCamera",
+        "state": 4,
+        "userauth_wording": "\"lary\" 要使用你的摄像头，是否允许？"
+      },
+      "removeCamera": { "name": "removeCamera", "state": 1 },
+      "updateCamera": { "name": "updateCamera", "state": 1 },
+      "operateCamera": { "name": "operateCamera", "state": 1 },
+      "onCameraNeedAuthCancel": {
+        "name": "onCameraNeedAuthCancel",
+        "state": 1
+      },
+      "onCameraStop": { "name": "onCameraStop", "state": 1 },
+      "onCameraStartRecord": { "name": "onCameraStartRecord", "state": 1 },
+      "onCameraPictureTaken": { "name": "onCameraPictureTaken", "state": 1 },
+      "onCameraVideoTaken": { "name": "onCameraVideoTaken", "state": 1 },
+      "onCameraOutput": { "name": "onCameraOutput", "state": 1 },
+      "onCameraStopRecord": { "name": "onCameraStopRecord", "state": 1 },
+      "enableLocationUpdate": { "name": "enableLocationUpdate", "state": 1 },
+      "onLocationChange": { "name": "onLocationChange", "state": 1 },
+      "animateCoverView": { "name": "animateCoverView", "state": 1 },
+      "removeMapMarkers": { "name": "removeMapMarkers", "state": 1 },
+      "checkIsSoterEnrolledInDevice": {
+        "name": "checkIsSoterEnrolledInDevice",
+        "state": 1
+      },
+      "webViewReadyToTerminate": {
+        "name": "webViewReadyToTerminate",
+        "state": 1
+      },
+      "createSocketTask": { "name": "createSocketTask", "state": 1 },
+      "operateSocketTask": { "name": "operateSocketTask", "state": 1 },
+      "onSocketTaskStateChange": {
+        "name": "onSocketTaskStateChange",
+        "state": 1
+      },
+      "onVideoError ": { "name": "onVideoError ", "state": 1 },
+      "onVideoWaiting": { "name": "onVideoWaiting", "state": 1 },
+      "navigateToDevMiniProgram": {
+        "name": "navigateToDevMiniProgram",
+        "state": 0
+      },
+      "startHCE": { "name": "startHCE", "state": 1 },
+      "stopHCE": { "name": "stopHCE", "state": 0 },
+      "sendHCEMessage": { "name": "sendHCEMessage", "state": 1 },
+      "onHCEMessage": { "name": "onHCEMessage", "state": 1 },
+      "onEvaluateWifi": { "name": "onEvaluateWifi", "state": 0 },
+      "evaluateWifi": { "name": "evaluateWifi", "state": 0 },
+      "getHCEState": { "name": "getHCEState", "state": 1 },
+      "updateApp": { "name": "updateApp", "state": 1 },
+      "insertLivePusher": { "name": "insertLivePusher", "state": 0 },
+      "updateLivePusher": { "name": "updateLivePusher", "state": 0 },
+      "removeLivePusher": { "name": "removeLivePusher", "state": 0 },
+      "operateLivePusher": { "name": "operateLivePusher", "state": 0 },
+      "insertLivePlayer": { "name": "insertLivePlayer", "state": 0 },
+      "updateLivePlayer": { "name": "updateLivePlayer", "state": 0 },
+      "removeLivePlayer": { "name": "removeLivePlayer", "state": 0 },
+      "operateLivePlayer": { "name": "operateLivePlayer", "state": 0 },
+      "onLivePusherEvent": { "name": "onLivePusherEvent", "state": 0 },
+      "onLivePlayerEvent": { "name": "onLivePlayerEvent", "state": 0 },
+      "syncAudioEvent": { "name": "syncAudioEvent", "state": 1 },
+      "onLivePlayerFullScreenChange": {
+        "name": "onLivePlayerFullScreenChange",
+        "state": 0
+      },
+      "canvasGetImageData": { "name": "canvasGetImageData", "state": 1 },
+      "canvasPutImageData": { "name": "canvasPutImageData", "state": 1 },
+      "mkdir": { "name": "mkdir", "state": 1 },
+      "mkdirSync": { "name": "mkdirSync", "state": 1 },
+      "readdir": { "name": "readdir", "state": 1 },
+      "readdirSync": { "name": "readdirSync", "state": 1 },
+      "readFileSync": { "name": "readFileSync", "state": 1 },
+      "writeFileSync": { "name": "writeFileSync", "state": 1 },
+      "rmdir": { "name": "rmdir", "state": 1 },
+      "rmdirSync": { "name": "rmdirSync", "state": 1 },
+      "access": { "name": "access", "state": 1 },
+      "accessSync": { "name": "accessSync", "state": 1 },
+      "unlink": { "name": "unlink", "state": 1 },
+      "unlinkSync": { "name": "unlinkSync", "state": 1 },
+      "stat": { "name": "stat", "state": 1 },
+      "statSync": { "name": "statSync", "state": 1 },
+      "setMenuStyle": { "name": "setMenuStyle", "state": 0 },
+      "setTabBarBadge": { "name": "setTabBarBadge", "state": 1 },
+      "onTabItemTap": { "name": "onTabItemTap", "state": 1 },
+      "onKeyboardInput": { "name": "onKeyboardInput", "state": 0 },
+      "onKeyboardConfirm": { "name": "onKeyboardConfirm", "state": 0 },
+      "onKeyboardComplete": { "name": "onKeyboardComplete", "state": 0 },
+      "unzip": { "name": "unzip", "state": 1 },
+      "setDeviceOrientation": { "name": "setDeviceOrientation", "state": 0 },
+      "saveFileSync": { "name": "saveFileSync", "state": 1 },
+      "fs_rename": { "name": "fs_rename", "state": 1 },
+      "fs_renameSync": { "name": "fs_renameSync", "state": 1 },
+      "fs_copyFile": { "name": "fs_copyFile", "state": 1 },
+      "fs_copyFileSync": { "name": "fs_copyFileSync", "state": 1 },
+      "canvasToTempFilePathSync": {
+        "name": "canvasToTempFilePathSync",
+        "state": 0
+      },
+      "openRealnameAuth": { "name": "openRealnameAuth", "state": 0 },
+      "openOfflinePayView": { "name": "openOfflinePayView", "state": 0 },
+      "whatsnew_openUrl": { "name": "whatsnew_openUrl", "state": 0 },
+      "onVideoSliderChange": { "name": "onVideoSliderChange", "state": 0 },
+      "private_openUrl": { "name": "private_openUrl", "state": 1 },
+      "private_addContact": { "name": "private_addContact", "state": 1 },
+      "private_quicklyAddBrandContact": {
+        "name": "private_quicklyAddBrandContact",
+        "state": 0
+      },
+      "onWindowResize": { "name": "onWindowResize", "state": 1 },
+      "batchGetContact": { "name": "batchGetContact", "state": 1 },
+      "onLivePusherNetStatus": { "name": "onLivePusherNetStatus", "state": 0 },
+      "onLivePlayerNetStatus": { "name": "onLivePlayerNetStatus", "state": 0 },
+      "scrollWebviewTo": { "name": "scrollWebviewTo", "state": 1 },
+      "searchContacts ": { "name": "searchContacts ", "state": 0 },
+      "showTabBar": { "name": "showTabBar", "state": 1 },
+      "hideTabBar": { "name": "hideTabBar", "state": 1 },
+      "setTabBarStyle": { "name": "setTabBarStyle", "state": 1 },
+      "setTabBarItem": { "name": "setTabBarItem", "state": 1 },
+      "WIDGET_SEARCH_authorize": {
+        "name": "WIDGET_SEARCH_authorize",
+        "state": 0
+      },
+      "openWCPayCardList": { "name": "openWCPayCardList", "state": 0 },
+      "onAudioInterruptionBegin": {
+        "name": "onAudioInterruptionBegin",
+        "state": 1
+      },
+      "onAudioInterruptionEnd": {
+        "name": "onAudioInterruptionEnd",
+        "state": 1
+      },
+      "sendRedPacket": { "name": "sendRedPacket", "state": 0 },
+      "openRedPacket": { "name": "openRedPacket", "state": 0 },
+      "getBatteryInfo": { "name": "getBatteryInfo", "state": 1 },
+      "voiceSplitJoint": { "name": "voiceSplitJoint", "state": 0 },
+      "launchApplication": { "name": "launchApplication", "state": 1 },
+      "addNativeDownloadTask": { "name": "addNativeDownloadTask", "state": 0 },
+      "onPageNotFound": { "name": "onPageNotFound", "state": 1 },
+      "pageNotFoundCallback": { "name": "pageNotFoundCallback", "state": 1 },
+      "requestMallPayment": { "name": "requestMallPayment", "state": 0 },
+      "downloadAppInternal": { "name": "downloadAppInternal", "state": 1 },
+      "shareAppMessageToCurrentContextDirectly": {
+        "name": "shareAppMessageToCurrentContextDirectly",
+        "state": 0
+      },
+      "openQRCode": { "name": "openQRCode", "state": 0 },
+      "adDataReport": { "name": "adDataReport", "state": 1 },
+      "measureText": { "name": "measureText", "state": 1 },
+      "uploadSilkVoice": { "name": "uploadSilkVoice", "state": 0 },
+      "downloadSilkVoice": { "name": "downloadSilkVoice", "state": 0 },
+      "getInstallState": { "name": "getInstallState", "state": 1 },
+      "addDownloadTaskStraight": {
+        "name": "addDownloadTaskStraight",
+        "state": 1
+      },
+      "queryDownloadTask": { "name": "queryDownloadTask", "state": 1 },
+      "installDownloadTask": { "name": "installDownloadTask", "state": 1 },
+      "pauseDownloadTask": { "name": "pauseDownloadTask", "state": 1 },
+      "resumeDownloadTask": { "name": "resumeDownloadTask", "state": 1 },
+      "writeCommData": { "name": "writeCommData", "state": 0 },
+      "insertScrollView": { "name": "insertScrollView", "state": 1 },
+      "updateScrollView": { "name": "updateScrollView", "state": 1 },
+      "removeScrollView": { "name": "removeScrollView", "state": 1 },
+      "onScrollViewScroll": { "name": "onScrollViewScroll", "state": 1 },
+      "getVoicePath": { "name": "getVoicePath", "state": 0 },
+      "setResPath": { "name": "setResPath", "state": 0 },
+      "getShareAppMessagePermission": {
+        "name": "getShareAppMessagePermission",
+        "state": 0
+      },
+      "setBackgroundColor": { "name": "setBackgroundColor", "state": 1 },
+      "setBackgroundTextStyle": {
+        "name": "setBackgroundTextStyle",
+        "state": 1
+      },
+      "onCameraScanCode": { "name": "onCameraScanCode", "state": 1 },
+      "WIDGET_SEARCH_showPickerView": {
+        "name": "WIDGET_SEARCH_showPickerView",
+        "state": 0
+      },
+      "WIDGET_SEARCH_showDatePickerView": {
+        "name": "WIDGET_SEARCH_showDatePickerView",
+        "state": 0
+      },
+      "calRqt": { "name": "calRqt", "state": 0 },
+      "sendDataToH5": { "name": "sendDataToH5", "state": 1 },
+      "onH5Data": { "name": "onH5Data", "state": 1 },
+      "fs_appendFile": { "name": "fs_appendFile", "state": 1 },
+      "fs_appendFileSync": { "name": "fs_appendFileSync", "state": 1 },
+      "updateKeyboard": { "name": "updateKeyboard", "state": 0 },
+      "updateShareMenuUpdatable": {
+        "name": "updateShareMenuUpdatable",
+        "state": 0
+      },
+      "showUpdatableMessageSubscribeButton": {
+        "name": "showUpdatableMessageSubscribeButton",
+        "state": 0
+      },
+      "getMenuButtonBoundingClientRect": {
+        "name": "getMenuButtonBoundingClientRect",
+        "state": 1
+      },
+      "createLoadSubPackageTask": {
+        "name": "createLoadSubPackageTask",
+        "state": 0
+      },
+      "onLoadSubPackageTaskStateChange": {
+        "name": "onLoadSubPackageTaskStateChange",
+        "state": 0
+      },
+      "getAvailableAudioSources": {
+        "name": "getAvailableAudioSources",
+        "state": 1
+      },
+      "showStatusBar": { "name": "showStatusBar", "state": 1 },
+      "hideStatusBar": { "name": "hideStatusBar", "state": 1 },
+      "enableDeviceOrientationChangeListening": {
+        "name": "enableDeviceOrientationChangeListening",
+        "state": 0
+      },
+      "onDeviceOrientationChange": {
+        "name": "onDeviceOrientationChange",
+        "state": 0
+      },
+      "addDownloadTask": { "name": "addDownloadTask", "state": 0 },
+      "cancelDownloadTask": { "name": "cancelDownloadTask", "state": 0 },
+      "openADCanvas": { "name": "openADCanvas", "state": 0 },
+      "startCustomFacialRecognitionVerify": {
+        "name": "startCustomFacialRecognitionVerify",
+        "state": 0
+      },
+      "startCustomFacialRecognitionVerifyAndUploadVideo": {
+        "name": "startCustomFacialRecognitionVerifyAndUploadVideo",
+        "state": 0
+      },
+      "doTEC": { "name": "doTEC", "state": 0 },
+      "onVideoCanPlay": { "name": "onVideoCanPlay", "state": 0 },
+      "setInnerAudioOption": { "name": "setInnerAudioOption", "state": 0 },
+      "loadVideoResource": { "name": "loadVideoResource", "state": 0 },
+      "onVideoResourceLoad": { "name": "onVideoResourceLoad", "state": 0 },
+      "onVideoResourceError": { "name": "onVideoResourceError", "state": 0 },
+      "insertInput": { "name": "insertInput", "state": 0 },
+      "removeInput": { "name": "removeInput", "state": 0 },
+      "focusInput": { "name": "focusInput", "state": 0 },
+      "enableGyroscope": { "name": "enableGyroscope", "state": 1 },
+      "onGyroscopeChange": { "name": "onGyroscopeChange", "state": 1 },
+      "onDeviceMotionChange": { "name": "onDeviceMotionChange", "state": 1 },
+      "enableDeviceMotionChangeListening": {
+        "name": "enableDeviceMotionChangeListening",
+        "state": 1
+      },
+      "addMapPolygons": { "name": "addMapPolygons", "state": 0 },
+      "onViewWillResize": { "name": "onViewWillResize", "state": 1 },
+      "onViewDidResize": { "name": "onViewDidResize", "state": 1 },
+      "faceVerifyForPay": { "name": "faceVerifyForPay", "state": 0 },
+      "setGlobalStorage": { "name": "setGlobalStorage", "state": 1 },
+      "getGlobalStorage": { "name": "getGlobalStorage", "state": 1 },
+      "getGlobalStorageInfo": { "name": "getGlobalStorageInfo", "state": 1 },
+      "removeGlobalStorage": { "name": "removeGlobalStorage", "state": 1 },
+      "setGlobalRenderingAttributes": {
+        "name": "setGlobalRenderingAttributes",
+        "state": 0
+      },
+      "chooseInvoice": { "name": "chooseInvoice", "state": 0 },
+      "setCookies": { "name": "setCookies", "state": 0 },
+      "getCookies": { "name": "getCookies", "state": 0 },
+      "onWebviewStartLoad": { "name": "onWebviewStartLoad", "state": 1 },
+      "onWebviewFinishLoad": { "name": "onWebviewFinishLoad", "state": 1 },
+      "onWebviewError": { "name": "onWebviewError", "state": 1 },
+      "secureTunnel": { "name": "secureTunnel", "state": 0 },
+      "profile": { "name": "profile", "state": 0 },
+      "insertPositioningContainer": {
+        "name": "insertPositioningContainer",
+        "state": 0
+      },
+      "updatePositioningContainer": {
+        "name": "updatePositioningContainer",
+        "state": 0
+      },
+      "onMapPoiClick": { "name": "onMapPoiClick", "state": 1 },
+      "removePositioningContainer": {
+        "name": "removePositioningContainer",
+        "state": 0
+      },
+      "onLivePusherBGMStart": { "name": "onLivePusherBGMStart", "state": 0 },
+      "onLivePusherBGMProgress": {
+        "name": "onLivePusherBGMProgress",
+        "state": 0
+      },
+      "onLivePusherBGMComplete": {
+        "name": "onLivePusherBGMComplete",
+        "state": 0
+      },
+      "joinVoIPChat": { "name": "joinVoIPChat", "state": 0 },
+      "exitVoIPChat": { "name": "exitVoIPChat", "state": 0 },
+      "onVoIPChatMembersChanged": {
+        "name": "onVoIPChatMembersChanged",
+        "state": 0
+      },
+      "onVoIPChatSpeakersChanged": {
+        "name": "onVoIPChatSpeakersChanged",
+        "state": 0
+      },
+      "onVoIPChatInterrupted": { "name": "onVoIPChatInterrupted", "state": 0 },
+      "updateVoIPChatMuteConfig": {
+        "name": "updateVoIPChatMuteConfig",
+        "state": 0
+      },
+      "getBackgroundFetchData": {
+        "name": "getBackgroundFetchData",
+        "state": 0
+      },
+      "onBackgroundFetchData": { "name": "onBackgroundFetchData", "state": 0 },
+      "onMapIndoorChange": { "name": "onMapIndoorChange", "state": 1 },
+      "getMapIndoorFloor": { "name": "getMapIndoorFloor", "state": 1 },
+      "setMapIndoorFloor": { "name": "setMapIndoorFloor", "state": 1 },
+      "getABTestConfig": { "name": "getABTestConfig", "state": 1 },
+      "compressImage": { "name": "compressImage", "state": 0 },
+      "operateLocalServicesScan": {
+        "name": "operateLocalServicesScan",
+        "state": 0
+      },
+      "onLocalServiceEvent": { "name": "onLocalServiceEvent", "state": 0 },
+      "onLivePusherError": { "name": "onLivePusherError", "state": 0 },
+      "chooseMessageFile": { "name": "chooseMessageFile", "state": 0 },
+      "setDisplayOrientation": { "name": "setDisplayOrientation", "state": 0 },
+      "setVolume": { "name": "setVolume", "state": 0 },
+      "getVolume": { "name": "getVolume", "state": 0 },
+      "insertXWebVideo": { "name": "insertXWebVideo", "state": 0 },
+      "updateXWebVideo": { "name": "updateXWebVideo", "state": 0 },
+      "removeXWebVideo": { "name": "removeXWebVideo", "state": 0 },
+      "operateXWebVideo": { "name": "operateXWebVideo", "state": 0 },
+      "onXWebVideoWaiting": { "name": "onXWebVideoWaiting", "state": 0 },
+      "onXWebVideoPlay": { "name": "onXWebVideoPlay", "state": 0 },
+      "onXWebVideoPause": { "name": "onXWebVideoPause", "state": 0 },
+      "onXWebVideoEnded": { "name": "onXWebVideoEnded", "state": 0 },
+      "onXWebVideoTimeUpdate": { "name": "onXWebVideoTimeUpdate", "state": 0 },
+      "onXWebVideoError": { "name": "onXWebVideoError", "state": 0 },
+      "onXWebVideoLoadedMetaData": {
+        "name": "onXWebVideoLoadedMetaData",
+        "state": 0
+      },
+      "onXWebVideoProgress": { "name": "onXWebVideoProgress", "state": 0 },
+      "onVideoProgress": { "name": "onVideoProgress", "state": 0 }
+    },
+    "appName": "lary",
+    "appImageUrl": "http://wx.qlogo.cn/mmhead/ZqDaDiccbgkheF9QZWougtkaK1L04uekiaA0x4EzicOibHatuawANNR1ibA/0",
+    "appid": "wx898945e5568b4ea3",
+    "share_info": [
+      {
+        "share_name": "T8aotlJJn5ItxCbpeMOxPmJvkJ9Ycrc-YgC2d6Kj_Bg@cr4dev",
+        "share_key": "fTfV_K3LT2s5DRcKsscxl9t1HzyG1d09rG9roK1aSQQj0xz9UkMQNRDYBjrCPU1yzc9KUgbWLjd7DE84sP08BQ~~",
+        "room_topic": "测试模拟群0"
+      },
+      {
+        "share_name": "T8aotlJJn5ItxCbpeMOxPkJmTyDZDAGR5RPEezx4Z0s@cr4dev",
+        "share_key": "fecLfGK1obTEaIjVDWqEOrFwjGLTrBWHUmmo7mDbB8XP-3YA69DmPnJTcaJUjx1RRu8dxbz-zKKqrbJDH-9iZQ~~",
+        "room_topic": "测试模拟群1"
+      },
+      {
+        "share_name": "T8aotlJJn5ItxCbpeMOxPkAhGvRg50ZQrDxFNzgNerM@cr4dev",
+        "share_key": "93KDf0zL0pO3Bzw3OSMN4PDMgeFtNTlAUrQXZGKSw2XwaN-w-n9_j8bWEXUelU8zMkuTAN1XEQtFgvH1Zs6Wtw~~",
+        "room_topic": "测试模拟群2"
+      },
+      {
+        "share_name": "T8aotlJJn5ItxCbpeMOxPgES_MFauEYPpFci2SNoNNM@cr4dev",
+        "share_key": "Z8iU4K_uY0RmSaOBmsdeszpGOBy8rbn8fKou_8_DRqk0qOQdZK_7wxe2U04EDgPkaRSMaQq0RwgRH2cIE24_PQ~~",
+        "room_topic": "测试模拟群3"
+      },
+      {
+        "share_name": "T8aotlJJn5ItxCbpeMOxPvIrZu8B9HD6m0uq7il9xb4@cr4dev",
+        "share_key": "Djba5W4oGOkdp3INSTH8JuObGmi85hPFSlm3fBNEPeiantuH3kUwhFxQ5UM-yuywzSHXlunKOY8KUMQqBl7z8Q~~",
+        "room_topic": "测试模拟群4"
+      },
+      {
+        "share_name": "T8aotlJJn5ItxCbpeMOxPo9wTJEvar2rkrmWgZtZAQ8@cr4dev",
+        "share_key": "WDf7pXxjocUiQe68w9Y6hX-6lQTmEbi2OFy2WXFuZfm0rjDDK_i5GL-MUUgDUCLvUCk7MSqTyHvOrswRFO2eZg~~",
+        "room_topic": "测试模拟群5"
+      },
+      {
+        "share_name": "T8aotlJJn5ItxCbpeMOxPsu1eMGba7sdeJbR1MrdK1I@cr4dev",
+        "share_key": "rn8CKu1504zrITc4nInN0oB2fLtfuahjvKIjooCxKHdFWCaism1_PGkH0eZuhpQwHL-mdanWDxRUQYPseL1c6w~~",
+        "room_topic": "测试模拟群6"
+      },
+      {
+        "share_name": "T8aotlJJn5ItxCbpeMOxPtEnpSn8SSA3E9qkJMMjxr8@cr4dev",
+        "share_key": "6bXEMSX7qpqIfZ0WfViLlPj49RsfISCj_l83DyM7XGnrdd2_uk5FsvjxtnqTp8x1LQGCzl5w6lWxhdgAGIfLdg~~",
+        "room_topic": "测试模拟群7"
+      },
+      {
+        "share_name": "T8aotlJJn5ItxCbpeMOxPguP4iqPlIrFYQCpD2026j4@cr4dev",
+        "share_key": "Opb3UGfj9IjONCVh9PDM25IIh7V2vDXxRXh3QcNc0jwG9Zr6MSEajLoi5e-s4N52k1z1br-hROZc9Y0bptfr_g~~",
+        "room_topic": "测试模拟群8"
+      }
+    ],
+    "released": false,
+    "minPublicLibVersion": "",
+    "searchWidget": true,
+    "userbanded": true,
+    "permissionBitset": "011111111111111111111111111111141111141111111111111111110000004111111111011111111111100111111111111111141111111111111111111111111111111111111111111110111101111111100001111001111111111111111111100001111011000000100001440001111110111111101000111111101101111111111000000001111111111110011041101111141111111000000000011111111110000004111111111111111111111010110011000000000010111111111111111101100010111110000011011001011110011001010110100110011111101111000111000111100010011100000000000000001111011011110000111000010000000000001111000000000000000000000",
+    "isSandbox": false,
+    "authQY": false,
+    "appType": 0,
+    "qcloud": {
+      "qcloud_status": { "open_qc_account": 1, "open_develop_env": 0 },
+      "qcloud_dev_info": {
+        "networking": {
+          "request_domain": ["https://arssrexk.qcloud.la", ""],
+          "ws_request_domain": ["wss://arssrexk.ws.qcloud.la", ""],
+          "upload_domain": ["https://arssrexk.qcloud.la", ""],
+          "download_domain": ["https://arssrexk.qcloud.la", ""]
+        },
+        "ip": "",
+        "db_host": "",
+        "db_user": "",
+        "db_pass": "",
+        "cvm_info": {
+          "node_init_time": 1529645183,
+          "deploy_time": 1529645185,
+          "service_running": 0,
+          "service_start_time": 1529645206,
+          "service_stop_time": 1530250853
+        },
+        "current_language": 1,
+        "open_node_js": 1
+      },
+      "create_time": 1529644343,
+      "update_time": 1530250854,
+      "appuin": 3842014060,
+      "seq": 6
+    },
+    "extInfo": { "appid": "" }
+  },
+  "appShowName": "lary",
+  "scripts": {},
+  "storage": {
+    "openid": "o6zAJs8eALtgZwsT_ZPQc5DEQEl0",
+    "cache": {
+      "logs": {
+        "data": "[1535097655239,1535097273969,1535097045106,1535097026228,1535094999146,1535094396920,1535094218105,1535093642596,1535093465303]",
+        "dataType": "Array"
+      },
+      "__wxprivate__/cookies": { "data": "", "dataType": "String" }
+    }
+  },
+  "svr": "",
+  "client": "",
+  "qcloudRoot": "",
+  "miniprogramRoot": "",
+  "pluginRoot": "",
+  "pluginInfo": [],
+  "pkgSize": {
+    "upload": 4521,
+    "uploadSubpackages": [{ "name": "__FULL__", "size": 4521 }],
+    "lastUploadTime": 1535094233318
+  },
+  "uploadInfo": { "version": "1.0.0" }
+}
