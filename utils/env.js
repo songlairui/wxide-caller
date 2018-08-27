@@ -10,7 +10,20 @@ if (typeof BroadcastChannel === 'undefined') {
 global.CLI = {
   isTestMode: false
 }
-global.appConfig = { isDev: false, isBeta: false, isGamma: false }
+global.appConfig = {
+  isDev: false,
+  isBeta: false,
+  isGamma: false
+}
+global.devInfo = {
+  appid: 'wx898945e5568b4ea3',
+  id: '1535343208019',
+  isOnline: false,
+  isTemp: false,
+  projectid: 'wx898945e5568b4ea3_wx-webview',
+  projectname: 'wx-webview',
+  projectpath: 'F:\\Coding\\wx-webview'
+}
 
 const DIRECT = 'DIRECT'
 const proxyDict = {
@@ -33,5 +46,7 @@ global.nw = {
 }
 
 Object.assign(global, {
-  appVersion: '1.02.1808101'
+  appVersion: '1.02.1808101',
+  devType: 'miniprogram',
+  // isDevWindow: true
 })
