@@ -18,5 +18,6 @@ const payload = [
 ]
 
 !(async function main() {
-  console.warn(await l(...payload))
+  const result = await l(...payload)
+  console.warn('\n---result-------', result)
 })()
