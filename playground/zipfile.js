@@ -20,5 +20,3 @@ async function main(A = testDir) {
 }
 
 module.exports = main
-
-main()
