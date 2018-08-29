@@ -7,6 +7,11 @@ if (typeof localStorage === 'undefined' || localStorage === null) {
 if (typeof BroadcastChannel === 'undefined') {
   global.BroadcastChannel = require('broadcast-channel')
 }
+
+if (typeof window === 'undefined') {
+  global.window = {}
+}
+
 global.CLI = {
   isTestMode: false
 }
@@ -47,6 +52,6 @@ global.nw = {
 
 Object.assign(global, {
   appVersion: '1.02.1808101',
-  devType: 'miniprogram',
+  devType: 'miniprogram'
   // isDevWindow: true
 })
