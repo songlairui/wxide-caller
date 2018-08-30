@@ -23,11 +23,12 @@ function genPayload() {
   ]
 }
 
-;(async function() {
+module.exports = async function() {
   const A = await f911222(...genPayload())
-  console.warn('\n=====================\n', A)
-  const AA = await filterFile(A)
-  console.warn('\n=====================\n', AA)
+  // console.warn('\n=====================\n', A)
+  await filterFile(A)
+  // console.warn('\n=====================\n', AA)
   const AAA = await zipfile(A)
-  console.warn('\n=====================\n', AAA)
-})()
+  // console.warn('\n=====================\n', AAA)
+  return AAA
+}

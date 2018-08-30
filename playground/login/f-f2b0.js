@@ -1,4 +1,6 @@
 // fake - f2b0fd116ee25849124e867e0da34f23.js 初始页
+const fs = require('fs')
+const path = require('path')
 const { rrequire } = require('../../utils')
 
 !(function(require) {
@@ -12,20 +14,20 @@ const { rrequire } = require('../../utils')
     k = rrequire('./5bdce4f0657e887a1fda83e134c0b823.js'), // upper api？ require c
     l = require('./f-89ba')
     // l = rrequire('./89ba85d67a88f7636d657c22b5d3e038.js'), // export api for others？
-    m = 'darwin' === process.platform ? 'darwin' : 'win',
-    n = d.LOGIN_QR_STATUS,
-    o = {
+  ;(m = 'darwin' === process.platform ? 'darwin' : 'win'),
+    (n = d.LOGIN_QR_STATUS),
+    (o = {
       REQ_ERR_RETRY_INTERVAL: 500,
       SCANNED_TIMEOUT: 500,
       CANCELLED_TIMEOUT: 2e3,
       KEEP_ALIVE_TIMEOUT: 2e3,
       RELOAD_TO_LONGPOLL_TIMEOUT: 100,
       LONGPOLL_TIMEOUT: 6e4
-    },
-    p = 3,
-    q = 10,
-    r = /"(https:\/\/long.open.weixin.qq.com\/connect\/l\/qrconnect\?uuid=.+?)"/,
-    s = /src="\/(connect\/qrcode\/.+)"/
+    }),
+    (p = 3),
+    (q = 10),
+    (r = /"(https:\/\/long.open.weixin.qq.com\/connect\/l\/qrconnect\?uuid=.+?)"/),
+    (s = /src="\/(connect\/qrcode\/.+)"/)
   // t = require('./da7c31daaf542cf1796023d8e344b98a.js')  // 发起请求
   let reloadErrCountdown = q
   let _longPollURL,
@@ -169,8 +171,12 @@ const { rrequire } = require('../../utils')
         ))
     }
   }
-  function onLoginSuccess(b){
+  function onLoginSuccess(b) {
     console.warn('----------------', b)
+    fs.writeFileSync(
+      path.resolve(__dirname, 'loginfo.json'),
+      JSON.stringify(b, null, 1)
+    )
   }
   module.exports = {
     reloadQRCode

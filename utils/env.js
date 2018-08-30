@@ -5,7 +5,18 @@ if (typeof localStorage === 'undefined' || localStorage === null) {
   global.localStorage = new LocalStorage(path.resolve(__dirname, './scratch'))
 }
 if (typeof BroadcastChannel === 'undefined') {
-  global.BroadcastChannel = require('broadcast-channel')
+  const BroadcastChannel = function BroadcastChannel(type) {
+    this.type = type
+  }
+  BroadcastChannel.prototype.onmessage = function(...x) {
+    console.warn('onmessage', ...x)
+  }
+  BroadcastChannel.prototype.postMessage = function(...x) {
+    console.warn('postMessage', ...x)
+    this.onmessage && this.onmessage(...x)
+  }
+
+  global.BroadcastChannel = BroadcastChannel
 }
 
 if (typeof window === 'undefined') {

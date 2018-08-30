@@ -1,4 +1,6 @@
+const path = require('path')
 const { rrequire } = require('../../utils')
+const userInfo = require(path.resolve(__dirname, 'loginfo.json'))
 var _extends =
   Object.assign ||
   function(a) {
@@ -16,23 +18,20 @@ var _extends =
     f = 'darwin' === process.platform ? 'darwin' : 'win',
     g = () => {
       let a = global.isSimple ? global.userInfo : d.userInfo
-      return (
-        (a.signature && a.openid && !(a.signatureExpiredTime < Date.now())) ||
-          ((a = {}), h({})),
-        a
-      )
+      console.warn('userInfo', a)
+      if (!a || !Object.values(a).length) {
+        a = userInfo
+      }
+      ;(a.signature && a.openid && !(a.signatureExpiredTime < Date.now())) ||
+        ((a = {}), h({}))
+      return a
     },
     h = a => {
       global.isSimple ? (global.userInfo = a) : (d.userInfo = a)
     }
   let i,
     j = []
-  function Login(e) { this.type = 'Login'; this.channel = e }
-  const k = new (Login)('login')
-  k.postMessage = function(...x) {
-    console.warn('postMessage', ...x)
-    this.onmessage && this.onmessage(...x)
-  }
+  const k = new BroadcastChannel('login')
   k.onmessage = a => {
     let { type: b, data: c } = a.data
     switch (b) {
@@ -66,6 +65,7 @@ var _extends =
         form: JSON.stringify({ openid: b.openid, signature: b.signature }),
         method: 'post'
       }
+      console.warn('request new Ticket', d, c)
       a(d, c)
     },
     o = function() {
@@ -111,12 +111,15 @@ var _extends =
       let a = Date.now(),
         b = g(),
         c = ''
-      return (
-        b.newticket && b.ticketExpiredTime && b.ticketExpiredTime > a
-          ? (c = b.newticket)
-          : (await o(), (b = g()), (c = b.newticket)),
-        c
+      console.warn(
+        'p---------',
+        b.newticket && b.ticketExpiredTime && b.ticketExpiredTime > a,
+        b
       )
+      b.newticket && b.ticketExpiredTime && b.ticketExpiredTime > a
+        ? (c = b.newticket)
+        : (await o(), (b = g()), (c = b.newticket))
+      return c
     }
   module.exports = {
     getUserInfo: g,
@@ -154,8 +157,8 @@ var _extends =
       })
     },
     makeRequestOptionsWithLoginState: async function(a) {
-      let b = await p(),
-        c = -1 === a.url.indexOf('?') ? `?newticket=${b}` : `&newticket=${b}`
+      let b = await p()
+      let c = -1 === a.url.indexOf('?') ? `?newticket=${b}` : `&newticket=${b}`
       return (a.url += c), a
     },
     getNewTicket: p,

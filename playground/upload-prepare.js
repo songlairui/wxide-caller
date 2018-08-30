@@ -1,6 +1,7 @@
+const path = require('path')
 const { rrequire } = require('../utils')
 const s = console.warn.bind(console)
-const i = require('./tmp.json')
+const i = require(path.resolve(__dirname, './tmp.json'))
 
 const f = require('zlib'),
   g = require('rmdir'),
