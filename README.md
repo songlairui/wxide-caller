@@ -11,6 +11,12 @@
 扫码，得到反馈。
 登陆成功之后 返回信息 写入`loginfo.json`
 
+## 打包文件
+
+```bash
+  node playground/fake-upload-full.js
+```
+
 ## 取得准备上传的请求内容
 
 ```bash
