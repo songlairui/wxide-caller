@@ -1,7 +1,8 @@
 const path = require('path')
 const { rrequire } = require('../utils')
 const s = console.warn.bind(console)
-const i = require(path.resolve(__dirname, './tmp.json'))
+
+const ii = rrequire('./bc78839ccca8df9e5ceeb7fae11b7be2.js')
 
 const f = require('zlib'),
   g = require('rmdir'),
@@ -24,6 +25,8 @@ const payload = {
 }
 
 async function main(K, A, b = payload) {
+  const i = ii.getState().project.current
+
   const o = 2,
     p = 1024 * o
 

@@ -1,6 +1,15 @@
 const { rrequire } = require('../utils')
 
-const i = require('./tmp.json')
+// const tmp = require('./tmp.json')
+// const j = {getState() {
+//   return {
+//     project:{
+//       current: tmp
+//     }
+//   }
+// }}
+const j = rrequire('./bc78839ccca8df9e5ceeb7fae11b7be2.js')
+
 
 const c = require('fs'),
   d = require('glob'),
@@ -17,9 +26,11 @@ const c = require('fs'),
 const s = console.warn.bind(console)
 const x = s
 
+// const testDir = `/Users/larry/Library/Application Support/微信web开发者工具/Default/debug`
 const testDir = `C:\\Users\\songlr\\AppData\\Local\\微信web开发者工具\\User Data\\Weappdest\\1535357212080`
 
 async function main(A = testDir) {
+  const i = j.getState().project.current
   s('globfiles', '正在对比文件列表')
   const B = [
     'node_modules/**/*',
@@ -31,6 +42,7 @@ async function main(A = testDir) {
     '.DS_Store',
     '**/.DS_Store'
   ]
+  console.warn('||||||---------i', i)
   'plugin' === i.compileType && B.push('doc/**/*')
   console.warn({ cwd: A })
   let C = await z('**', {

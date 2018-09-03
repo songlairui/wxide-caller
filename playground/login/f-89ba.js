@@ -1,6 +1,6 @@
 const path = require('path')
 const { rrequire } = require('../../utils')
-const userInfo = require(path.resolve(__dirname, 'loginfo.json'))
+// const userInfo = require(path.resolve(__dirname, 'loginfo.json'))
 var _extends =
   Object.assign ||
   function(a) {
@@ -17,8 +17,9 @@ var _extends =
     e = rrequire('./f171257bbcaef547a3cf27266ccb0db2.js'),
     f = 'darwin' === process.platform ? 'darwin' : 'win',
     g = () => {
+      const userInfo = JSON.parse(localStorage.getItem('userInfo'))
+
       let a = global.isSimple ? global.userInfo : d.userInfo
-      console.warn('userInfo', a)
       if (!a || !Object.values(a).length) {
         a = userInfo
       }
@@ -158,6 +159,8 @@ var _extends =
     },
     makeRequestOptionsWithLoginState: async function(a) {
       let b = await p()
+      if(!b) process.exit()
+        console.warn('get new ticket', b)
       let c = -1 === a.url.indexOf('?') ? `?newticket=${b}` : `&newticket=${b}`
       return (a.url += c), a
     },

@@ -11,6 +11,7 @@ var _extends =
 !(function() {
   const a = rrequire('./233d77ecf0781f44985f684f70e316d0.js'),
     b = require('./f-89ba'),
+    // b = rrequire('./89ba85d67a88f7636d657c22b5d3e038.js'), // json 配置
     c = rrequire('./df6d0ff021a69fb541c733de4dbba0fe.js'), // json 配置
     // d = rrequire('./9c906d27ca74e18d0deaaa231e71fdfa.js'), // redux action
     // e = rrequire('./bc78839ccca8df9e5ceeb7fae11b7be2.js'), // redux
@@ -75,7 +76,7 @@ var _extends =
         1 === h)
       )
         try {
-          console.warn('makeRequestOptionsWithLoginState')
+          console.warn('makeRequestOptionsWithLoginState', f)
           f = await b.makeRequestOptionsWithLoginState(f)
           console.warn('m -->', f)
         } catch (a) {
