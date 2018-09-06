@@ -22,36 +22,34 @@ function main(a, h) {
   const m = h.onProgressUpdate || t
   return new Promise(async (n, o) => {
     let p = a.compileType
-    m('checkfilestart', '正在检查文件')
+    m('checkfilestart', '正在检查文件', a.projectpath)
     try {
-      await d(a, h),
-        await e(a, h),
-        await f(a, h),
-        p == q.plugin && (await g(a, h))
+      await d(a, h)
+      await e(a, h)
+      await f(a, h)
+      p == q.plugin && (await g(a, h))
     } catch (a) {
       return o(a)
     }
-    m('checkfileend', '检查文件完成')
+    m('checkfileend', '检查文件完成', a.projectpath)
     // l.getCurrentConfig()
-    const u = 1 * new Date()
     let v = b.join(r, `${+new Date()}`)
     c.sync(v)
     try {
-      m('compilejsfilestart', '正在编译 JS 文件'),
-        await i(a, {
-          distPath: v,
-          onProgressUpdate: m,
-          onFilesIgnored: h.onFilesIgnored || t
-        }),
-        m('compilejsfilestart', '编译 JS 文件完成'),
-        m('compileotherfilestart', '正在编译其他文件'),
-        await j(a, { distPath: v }),
-        await k(a, { distPath: v }),
-        m('compileotherfileend', '编译其他文件完成')
+      m('compilejsfilestart', '正在编译 JS 文件', a.projectpath, v)
+      await i(a, {
+        distPath: v,
+        onProgressUpdate: m,
+        onFilesIgnored: h.onFilesIgnored || t
+      })
+      m('compilejsfilestart', '编译 JS 文件完成')
+      m('compileotherfilestart', '正在编译其他文件')
+      await j(a, { distPath: v })
+      await k(a, { distPath: v })
+      m('compileotherfileend', '编译其他文件完成')
     } catch (a) {
       return o(a)
     }
-    const w = 1 * new Date()
     // s('client_pack_source_time', a.appid, `${w - u}`)
     return n(v)
   })

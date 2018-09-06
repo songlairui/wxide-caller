@@ -14,8 +14,8 @@ const f = require('zlib'),
 
 const payload = {
   test: !1,
-  version: '1.0.0',
-  desc: '---test upload-------',
+  version: '1.0.1',
+  desc: `-test upload-----${new Date().toLocaleString()}--`,
   onFilesIgnored(a) {
     console.warn('onFilesIgnored', a)
   },
